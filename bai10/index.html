@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <style>
+        .d-none{
+            display :none;
+        }
+    </style>
+    <div id="ads-1" class="ads tes1 tes2 tes3">
+        <button id="close-ads">X</button>
+        <a href="#" target="_blank">
+            <img src="https://vcdn1-dulich.vnecdn.net/2021/07/16/1-1626437591.jpg?w=460&h=0&q=100&dpr=2&fit=crop&s=i2M2IgCcw574LT-bXFY92g" alt="" width="200px">
+        </a>
+    </div>
+    <h1>adad</h1>
+
+    <script>
+        const ads1 = document.querySelector("#ads-1");
+        const closeAds = document.querySelector("#close-ads")
+        closeAds.onclick = () =>{
+            ads1.setAttribute("class","d-none");
+        }
+        setTimeout(() =>{
+            ads1.setAttribute("class", "d-none");
+        },20000);
+    </script> -->
+    <label for="color">Chon mau ban thich</label>
+    <select name="mauSac" id="color">
+        <option value="white">Mau trang</option>
+        <option value="yellow">Mau vang</option>
+        <option value="black">mau den</option>
+    </select>
+
+    <script>
+        const color = document.querySelector("#color");
+
+        color.onchange = (event)=>{
+            console.log(event);
+        }
+    </script>
+</body>
+</html>
